@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 99.9%;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* body{
+    width: 100%;
+    height: 100%;
+} */
+
+
+.navbar{
+    height: 80px;
+    position: fixed;
+    top:0;
+    width: 98.5%;
+    background-color: white;
+    z-index: 1000;
+}
+
+#logo-img{
+    width: 8.5%;
+    margin: 1.6% 0 0 7%;
+}
+
+/* Home Section*/
+.home-section{
+    height: 559px;
+    width: 99%;
+    background: url(Images/tenweb_media_0oksvY43.webp);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5.8% 0 0 0;
+    animation: zoomBg 10s infinite alternate ease-in-out;
+}
+
+@keyframes zoomBg {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 110%;
+    }
+}
+
+
+.navbar2{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    position: fixed;
+    width: 98.5%;
+    top: 0;
+    overflow: hidden;
+    margin: 5.8% -1% 0 0;
+    z-index: 1000;
+}
+
+#logo_4sHit9ht{
+    width: 16%;
+    margin: 0.4% 0 0 3.5%;
+}
+
+#Links{
+    margin: -2.6% 0 0 40%;  
+}
+
+#Links a{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 0 0 4%;
+    color: white;
+}
+
+.icons{
+    margin: -1.8% 0 0 90%;
+    font-size: 18px;
+    height: 30px;
+    width: 8%;
+    color: white;
+    text-align: center;
+}
+
+#shooping-bag{
+    padding: 0 0 0 15%;
+}
+
+.PR{
+    margin: 5.8% 0 0 2.8%;
+    font-size: 48px;
+    width: 42%;
+    height: 105px;
+    color: white;
+ }
+
+ .text-AV{
+    color: white;
+    margin: 2.6% 0 0 2.8%;
+    width: 47%;
+    height: 100px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.Shop-now-button{
+    width: 9.8%;
+    background-color: white;
+    height: 50px;
+    margin: 7.9% 0 0 2.6%;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.Shop-now-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Vehicle section */
+
+.Vehicle-section{
+    height: 800%;
+    width: 99%;
+    line-height: 1.5;
+}
+
+.vehicles{
+    width: 30%;
+    text-align: center;
+    margin: 6% 0 0 35%;
+}
+
+.vehicle{
+    color: white;
+    font-size: 25px;
+}
+
+.vehicle-button{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.vehicle-button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.vehicle-images{
+    width: 99.9%;
+    height: 85vh;
+    margin: 4% 0 0 0;
+}
+
+.vehicle-images:hover{
+    cursor: grab;
+}
+
+.Cars{
+    width: 30%;
+    height: 100%;
+    background: url(Images/tenweb_media_fLmReyiq.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.Trucks{
+    width: 30%;
+    height: 100%;
+    background: url(Images/tenweb_media_G83FBlWl.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.SUVs{
+    width: 30%;
+    height: 100%;
+    background: url(Images/tenweb_media_GB5VeNJF.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+swiper-container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin: 0 0 0 2.5%;
+  }
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+   
+.VC{
+    margin: 50% 0 0 0;
+}
+    
+.VB{
+    margin: 5% 0 0 35%;
+    width: 30%;
+}
+
+/* Collection Section */
+
+.EOC{
+    width: 55%;
+    margin: 10% 0 0 2.8%;
+    font-size: 40px;
+}
+
+.collection{
+    font-size: 18px;
+    margin: 2% 0 0 2.8%;
+    width: 50%;
+}
+
+.Shop-Now{
+    width: 10%;
+    height: 46px;
+    font-size: 15px;
+    margin: 0 0 0 88%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.Shop-Now:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.collection-images{
+    margin: 5% 0 0 0;
+    display: flex;
+    width: 99%;
+}
+
+.SUV-F{
+    height: 480px;
+    width: 30%;
+    margin: 0 0 0 2.5%;
+}
+
+.SUV-F:hover{
+    border: 1px solid black;
+}
+
+.Image-Text{
+    border: 1px solid white;
+    width: 100%;
+    height: 380px;
+    background: url(Images/tenweb_media_IEe6ara9.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.Image-Text2{
+    border: 1px solid white;
+    width: 100%;
+    height: 380px;
+    background: url(Images/tenweb_media_R40Prck6.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.Image-Text3{
+    border: 1px solid white;
+    width: 100%;
+    height: 380px;
+    background: url(Images/tenweb_media_5rpAfoM4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.car-type{
+    margin: 101% 0 0 2.8%;
+}
+
+.price{
+    margin: 1% 0 2% 2.8%;
+}
+
+.cart{
+    color: black;
+    margin: 0 0 0 2.8%;
+    font-size: 15px;
+}
+
+.cart:hover{
+    color: orange;
+}
+
+/*AutoVibe Section*/
+
+.AutoVibe-section{
+    display: flex;
+    margin: 15% 0 0 0;
+}
+
+.text-about-autovibe{
+    width: 57%;
+    margin: 0 5% 0 2%;
+    line-height: 1.5;
+}
+
+.AV-text{
+    font-size: 40px;
+    margin: 0 2% 0 2.8%;
+    width: 50%;
+}
+
+.About-AV{
+    font-size: 18px;
+}
+
+.tenweb_media_qqQ91ogC{
+    width:95%;
+    margin: 5% 0 0 2.8%;
+}
+
+/*Promotion Section*/
+
+.Promotion-section{
+    background-color: #F3F4F6;
+    width: 99%;
+    margin: 10% 0 0 0;
+}
+
+.current-promotion{
+    border: 1px solid white;
+    height: 70vh;
+    width: 94%;
+    margin: 7% 0 0 2.8%;
+    background-color: #333333;
+}
+
+.CP-container{
+    width: 35%;
+    margin: 4% 0 0 4%;
+    color: white;
+    font-size: 40px;
+}
+
+.Text-about-promotion{
+    width: 49%;
+    color: white;
+    font-size: 18px;
+    margin: 4% 0 0 4%;
+    line-height: 1.5;
+}
+
+.current-promotion-images{
+    margin: -33.7% 0 0 52.1%;
+    width: 45%;
+}
+
+.button-shop-now{
+    border: none;
+    margin: 5% 0 0 4%;
+    width: 10%;
+    height: 46px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.button-shop-now:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.button-shop-now2{
+    border: 1px solid white;
+    background-color: transparent;
+    margin: 5% 0 0 2%;
+    width: 10%;
+    height: 46px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+}
+
+.button-shop-now2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-section{
+    display: flex;
+    height: 30vh;
+    line-height: 1.5;
+    margin: 8% 0 0 2.8%;
+}
+
+.Explore{
+    width: 19%;
+    margin: 0 0 0 0;
+}
+
+.Explore-text{
+    font-size: 14px;
+    margin: 9% 0 0 0;
+}
+
+.Stay-updated{
+    width: 29%;
+    margin: 0 0 0 8%;
+}
+
+.Explore-text2{
+    font-size: 14px;
+}
+
+#email-input{
+    height: 45px;
+    width: 65%;
+    border: none;
+    padding: 0 0 0 4%;
+    margin: 3% 0 0 0;
+}
+
+.button-shop-now3{
+    background-color: black;
+    border: none;
+    width: 30%;
+    height: 46px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+}
+
+.hr-line{
+    width: 95%;
+    margin: 0 0 0 2.8%;
+}
+
+.footer2{   
+    display: flex;
+    height: 20vh;
+}
+
+.AV2024{
+    margin: 2% 0 0 2.8%;
+    width: 30%;
+    font-size: 14px;
+}
+
+.TAC{
+    text-decoration: none;
+    padding: 0 6% 0 6%;
+}
+
+.AV1{
+    margin: 2% 0 0 9%;
+    width: 30%;
+    font-size: 14px;
+}
+
+.AV-icons{
+    margin: 2% 0 0 20%;
+    font-size: 17px;
+    width: 7%;
+}
+
+.fa-instagram{
+    padding: 0 9% 0 9%;
+}
